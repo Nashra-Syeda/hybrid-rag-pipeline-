@@ -1,0 +1,12 @@
+.env
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# generated at index-build time, not source
+chroma_db/
+
+# keep test PDFs out of git history; drop your own into data/ locally
+data/*.pdf
