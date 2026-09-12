@@ -1,4 +1,5 @@
-# PDF RAG
+# HYBRID RAG PIPELINE 
+
 
 A small retrieval-augmented generation pipeline over a single PDF:
 Docling for parsing, Chroma + HuggingFace embeddings for dense
