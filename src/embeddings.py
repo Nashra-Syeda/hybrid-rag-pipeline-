@@ -1,9 +1,9 @@
 """Embedding model, created once and reused by every caller.
 
 Loading a HuggingFace embedding model takes a couple of seconds and
-holds it in memory - the original scripts each created their own copy.
-This module hands out a single shared instance instead.
+holds it in memory - This module hands out a single shared instance.
 """
+
 from langchain_huggingface import HuggingFaceEmbeddings
 
 from .config import EMBEDDING_MODEL_NAME
