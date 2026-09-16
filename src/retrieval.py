@@ -1,10 +1,6 @@
 """Sparse (BM25), dense (Chroma), hybrid (RRF), and reranked retrieval.
-
-These were four separate demo scripts in the original project
-(bm25_search.py, hybrid_search.py, vector_store.py's search bit,
-reranking.py). They're combined here because a real chat pipeline
-uses all of them together, not one at a time.
 """
+
 from typing import Dict, List
 
 from langchain_chroma import Chroma
